@@ -47,6 +47,8 @@ SENDER_EMAIL_ADDRESS="_______________"
 
 ## Usage
 
+
+
 Printing today's weather forecast (to test the Weather.gov API):
 
 ```sh
@@ -73,6 +75,18 @@ python -m app.daily_briefing
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
 
+### Web App
+
+```sh
+#mac
+FLASK_APP=web_app flask run
+
+#windows
+export FLASK_APP=web_app
+flask run
+
+```
+
 
 ## Testing
 
@@ -91,3 +105,5 @@ CI=true pytest
 Follow the deployment instructions to deploy the app to a remote server and schedule the server to send you the weather forecast email every day.
 
 ## [License](/LICENSE.md)
+
+
