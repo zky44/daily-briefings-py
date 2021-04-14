@@ -11,6 +11,7 @@ requests
 sendgrid==6.6.0
 
 Flask
+gunicorn #Heroku wants to use this to run the production web server (as specified in the Procfile)
 
 
 #
