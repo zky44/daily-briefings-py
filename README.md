@@ -106,4 +106,6 @@ Follow the deployment instructions to deploy the app to a remote server and sche
 
 ## [License](/LICENSE.md)
 
+## Making this quick change to check that GitHub is working
+
 
