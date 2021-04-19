@@ -106,6 +106,8 @@ Follow the deployment instructions to deploy the app to a remote server and sche
 
 ## [License](/LICENSE.md)
 
+Some changes to the ReadME file
+
 
 
 
